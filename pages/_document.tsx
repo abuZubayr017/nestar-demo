@@ -5,7 +5,27 @@ export default function Document() {
 
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="title" content="Nestar Demo" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" type="image/png" href="/img/logo/favicon.svg" />
+
+        <meta
+          name="keyword "
+          content={
+            "nestar, nestar.uz, devex.uz, devex mern, mern nestjs fullstack"
+          }
+        />
+        <meta
+          name="description"
+          content={
+            "Buy and sell properties anywhere anytime in South Korea. | " +
+            "Покупайте и продавайте недвижимость в любом месте и в любое время в Южной Корее. | " +
+            "한국에서 언제 어디서나 부동산을 사고 팔 수 있습니다.한국에서 언제 어디서나 부동산을 사고 팔 수 있습니다."
+          }
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
