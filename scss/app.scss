@@ -3,16 +3,15 @@
 @import "reset.scss";
 
 /*** VERSION PC ***/
+
 #pc-wrap {
-    width: 100%;
-    height: 100% ;
+  width: 100%;
+  height: 100%;
 
-    .container{
-        position: relative;
-        width: 1300px;
-        margin: 0 auto;
-        display: flex;
-        background: rgb(0, 149, 255);
-    }
+  .container {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+  }
 }
-
